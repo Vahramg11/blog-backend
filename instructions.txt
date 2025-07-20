@@ -1,0 +1,6 @@
+1. npm install
+2. configure .env file add this 3 variables
+DATABASE_URL="postgresql://<username>:<yourpassword>@localhost:5432/<dbName>?schema=public"
+JWT_SECRET="some secret key"
+PORT=4000
+3. nodemon app.js (and server is running)
